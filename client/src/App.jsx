@@ -6,6 +6,7 @@ import Credits from './pages/Credits'
 import Community from './pages/Community'
 import { assets } from './assets/assets'
 import { useState } from 'react'
+import './assets/prism.css'
 export default function App() {
 
   const [isMenuOpen , setIsMenuOpen] = useState(false)
